@@ -1,0 +1,230 @@
+body {
+  font-family: 'Roboto';
+  background-color: #111111;
+  color: #e4e4e4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#App {
+  margin: 0 15px;
+}
+
+#home {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#header {
+  overflow: hidden;
+}
+
+#logo {
+  margin-bottom: 10px;
+}
+
+.logoText {
+  font-family: 'Segoe UI';
+  color: #E50914;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: bolder;
+  user-select: none;
+}
+
+.logoLeft {
+  float: left;
+}
+
+#userBox {
+  float: right;
+  text-align: right;
+  margin-top: 10px;
+}
+
+#userBox .link {
+  display: block;
+  cursor: pointer;
+}
+
+#userBox .link:hover {
+  color: #E50914;
+}
+
+#connectPutio {
+  display: inline-block;
+  clear: both;
+  margin: 25px;
+  padding: 20px;
+  border-radius: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: #272727;
+  border: 2px solid #464646;
+}
+
+#connectPutio:hover {
+  background-color: #464646;
+}
+
+.folder {
+  border-left: 1px solid #6f6f6f;
+  padding: 0 15px;
+  margin-left: 5px;
+}
+
+.folder .clickable {
+  cursor: pointer;
+}
+
+.folder .name {
+  margin: 5px 0;
+}
+
+.folder .name .fileSize {
+  margin-left: 5px;
+  color: gray;
+  font-size: 14px;
+}
+
+.folder .selector {
+  color: darkgreen;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.folder .selector:hover {
+  color: greenyellow;
+}
+
+.movie {
+  border: 1px solid white;
+  border-radius: 10px;
+  clear: both;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  min-height: 365px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.movie .poster {
+  float: left;
+  margin-right: 10px;
+}
+
+.movie span {
+  background-color: #0000008c;
+  padding: 5px 10px;
+  line-height: 28px;
+}
+
+.movie a {
+  color: white;
+}
+
+.movie .vote {
+  float: right;
+  font-size: 16px;
+}
+
+.movie .originalTitle {
+  font-size: 12px;
+  margin-left: 15px;
+  font-style: italic;
+}
+
+.movie .genres {
+  float: right;
+  margin-right: 10px;
+}
+
+.movie .genre {
+  font-size: 12px;
+  border-radius: 10px;
+  color: black;
+  background-color: #ffffffc2;
+  font-weight: normal;
+  margin-right: 5px;
+}
+
+.movie .links {
+  margin: 10px;
+  float: left;
+}
+
+.movie .links a {
+  display: inline-block;
+  margin-right: 10px;
+  opacity: 0.75;
+  filter: grayscale(80%);
+}
+
+.movie .links a:hover {
+  opacity: 1;
+  filter: grayscale(20%);
+}
+
+.movie .links .youtube img {
+  width: 64px;
+}
+
+.movie .links .imdb img {
+  width: 84px;
+}
+
+.movie .cast {
+  display: none;
+  clear: both;
+  background-color: #0000007a;
+  padding: 10px 10px 5px 10px;
+  border-radius: 10px;
+  margin: 15px 0 10px;
+  float: left;
+  width: calc(100% - 20px);
+}
+
+.movie .cast.visible {
+  display: block;
+}
+
+.movie .cast .actor {
+  margin: 5px 10px;
+  text-align: center;
+  float: left;
+  width: 138px;
+  min-height: 200;
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+}
+
+.movie .cast .actor img {
+  border-radius: 10px;
+  margin-bottom: 9px;
+}
+
+.castToggle {
+  position: absolute;
+  top: 325;
+  right: 20;
+  cursor: pointer;
+}
+
+pre {
+  background-color: black;
+  color: white
+}
+
+.clearfix {
+  clear: both;
+}
