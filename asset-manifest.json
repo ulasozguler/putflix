@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/putflix/static/css/main.563cff24.chunk.css",
+    "main.js": "/putflix/static/js/main.99cea364.chunk.js",
+    "main.js.map": "/putflix/static/js/main.99cea364.chunk.js.map",
+    "runtime-main.js": "/putflix/static/js/runtime-main.443a6dfc.js",
+    "runtime-main.js.map": "/putflix/static/js/runtime-main.443a6dfc.js.map",
+    "static/js/2.00a9dd33.chunk.js": "/putflix/static/js/2.00a9dd33.chunk.js",
+    "static/js/2.00a9dd33.chunk.js.map": "/putflix/static/js/2.00a9dd33.chunk.js.map",
+    "index.html": "/putflix/index.html",
+    "static/css/main.563cff24.chunk.css.map": "/putflix/static/css/main.563cff24.chunk.css.map",
+    "static/js/2.00a9dd33.chunk.js.LICENSE.txt": "/putflix/static/js/2.00a9dd33.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.443a6dfc.js",
+    "static/js/2.00a9dd33.chunk.js",
+    "static/css/main.563cff24.chunk.css",
+    "static/js/main.99cea364.chunk.js"
+  ]
+}
