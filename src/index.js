@@ -17,7 +17,7 @@ const oauth2 = new OAuth2({
 if (oauth2.isLoggedIn())
   putio.setToken(oauth2.getToken())
 
-oauth2.handleCallback(() => window.location.href = '/')
+oauth2.handleCallback(() => window.location.href = '/putflix')
 
 render(
   <Provider store={store}>

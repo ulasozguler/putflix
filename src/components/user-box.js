@@ -10,7 +10,7 @@ function UserBox(props) {
     var defFolder = localStorage.getItem(DEFAULT_FOLDER_KEY)
     localStorage.clear()
     localStorage.setItem(DEFAULT_FOLDER_KEY, defFolder)
-    window.location.href = '/'
+    window.location.href = '/putflix'
   }
 
   return (
