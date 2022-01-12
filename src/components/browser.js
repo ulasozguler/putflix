@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { fetchVideos } from 'actions/videos'
 import { DEFAULT_FOLDER_KEY } from '../constants'
@@ -32,7 +33,7 @@ class BrowserBare extends Component {
 
   render() {
     if (!this.isFolderSet())
-      return 'Set folder in settings'
+      return <Redirect to="/settings" />
 
     var videos = this.getVideos()
 

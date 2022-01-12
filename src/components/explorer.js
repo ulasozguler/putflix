@@ -67,6 +67,7 @@ class ExplorerBare extends Component {
       this.props.selectHandler(this.file)
     }
     e.stopPropagation()
+    window.location.href = '/putflix'
   }
 
   render() {
