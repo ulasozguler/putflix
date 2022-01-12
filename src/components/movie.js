@@ -141,6 +141,22 @@ class Movie extends Component {
 
         <div className="links">
           {
+            this.movie.imdb_id && (
+              <a
+                className="imdb"
+                href={
+                  "https://www.imdb.com/title/" +
+                  this.movie.imdb_id + "/"
+                }
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={IMDB_ICON} alt="View on IMDb" />
+              </a>
+            )
+          }
+
+          {
             this.movie.videos.results
               .filter(video => {
                 return (
@@ -159,22 +175,6 @@ class Movie extends Component {
                   <img src={YOUTUBE_ICON} alt="Watch Trailer" />
                 </a>
               })
-          }
-
-          {
-            this.movie.imdb_id && (
-              <a
-                className="imdb"
-                href={
-                  "https://www.imdb.com/title/" +
-                  this.movie.imdb_id + "/"
-                }
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={IMDB_ICON} alt="View on IMDb" />
-              </a>
-            )
           }
         </div>
 

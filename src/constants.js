@@ -11,5 +11,5 @@ export const TMDB_BACKDROP_BASE = 'https://image.tmdb.org/t/p/w1280'
 export const TMDB_POSTER_BASE = 'https://image.tmdb.org/t/p/w185'
 export const TMDB_ACTOR_BASE = 'https://image.tmdb.org/t/p/w138_and_h175_face'
 
-export const YOUTUBE_ICON = 'https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube_icon_full-color.svg'
-export const IMDB_ICON = 'https://m.media-amazon.com/images/G/01/IMDb/BG_rectangle._CB1509060989_SY230_SX307_AL_.png'
+export const YOUTUBE_ICON = 'https://www.svgrepo.com/show/13671/youtube.svg'
+export const IMDB_ICON = 'https://www.svgrepo.com/show/349409/imdb.svg'

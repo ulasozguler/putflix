@@ -166,20 +166,16 @@ a {
   display: inline-block;
   margin-right: 10px;
   opacity: 0.75;
-  filter: grayscale(80%);
+  filter: grayscale(50%);
 }
 
 .movie .links a:hover {
   opacity: 1;
-  filter: grayscale(20%);
 }
 
-.movie .links .youtube img {
-  width: 64px;
-}
-
-.movie .links .imdb img {
+.movie .links img {
   width: 84px;
+  height: 84px;
 }
 
 .movie .cast {
